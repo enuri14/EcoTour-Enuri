@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: ecoventure-api
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        generateValue: true
+    # You'll need to add your database environment variables manually in Render dashboard:
+    # DB_USER, DB_PASSWORD, DB_SERVER, DB_PORT, DB_NAME
