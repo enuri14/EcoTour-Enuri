@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTour - Sustainable Adventure Travel</title>
+    <meta name="description" content="Discover amazing eco-friendly tours and sustainable adventures around the world. Book your green travel experience today!">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>🌿 EcoTour</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#tours" class="nav-link">Tours</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#booking" class="nav-link book-btn">Book Now</a>
+            </div>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Explore Nature Responsibly</h1>
+            <p>Discover breathtaking eco-friendly adventures that protect our planet while creating unforgettable memories.</p>
+            <a href="#tours" class="cta-button">Discover Tours</a>
+        </div>
+        <div class="hero-image">
+            <div class="image-placeholder">🏞️ Beautiful Nature Scene</div>
+        </div>
+    </section>
+
+    <!-- Tours Section -->
+    <section id="tours" class="tours-section">
+        <div class="container">
+            <h2 class="section-title">Our Eco Tours</h2>
+            <p class="section-subtitle">Choose from our carefully curated sustainable travel experiences</p>
+            
+            <div class="tours-grid">
+                <div class="tour-card">
+                    <div class="tour-image">🌲</div>
+                    <div class="tour-content">
+                        <h3>Forest Hiking Adventure</h3>
+                        <p>Explore pristine forests with expert guides. Learn about local ecosystems and wildlife conservation.</p>
+                        <div class="tour-details">
+                            <span class="duration">🕐 3 Days</span>
+                            <span class="difficulty">⭐ Moderate</span>
+                            <span class="price">$299</span>
+                        </div>
+                        <button class="book-tour-btn" data-tour="forest">Book Tour</button>
+                    </div>
+                </div>
+
+                <div class="tour-card">
+                    <div class="tour-image">🏔️</div>
+                    <div class="tour-content">
+                        <h3>Mountain Eco Trek</h3>
+                        <p>Challenge yourself with sustainable mountain climbing while supporting local communities.</p>
+                        <div class="tour-details">
+                            <span class="duration">🕐 5 Days</span>
+                            <span class="difficulty">⭐⭐ Challenging</span>
+                            <span class="price">$599</span>
+                        </div>
+                        <button class="book-tour-btn" data-tour="mountain">Book Tour</button>
+                    </div>
+                </div>
+
+                <div class="tour-card">
+                    <div class="tour-image">🌊</div>
+                    <div class="tour-content">
+                        <h3>Ocean Conservation Tour</h3>
+                        <p>Join marine biologists in coral reef restoration and ocean cleanup activities.</p>
+                        <div class="tour-details">
+                            <span class="duration">🕐 4 Days</span>
+                            <span class="difficulty">⭐ Easy</span>
+                            <span class="price">$449</span>
+                        </div>
+                        <button class="book-tour-btn" data-tour="ocean">Book Tour</button>
+                    </div>
+                </div>
+
+                <div class="tour-card">
+                    <div class="tour-image">🦌</div>
+                    <div class="tour-content">
+                        <h3>Wildlife Safari</h3>
+                        <p>Observe wildlife in their natural habitat while contributing to conservation efforts.</p>
+                        <div class="tour-details">
+                            <span class="duration">🕐 6 Days</span>
+                            <span class="difficulty">⭐ Easy</span>
+                            <span class="price">$799</span>
+                        </div>
+                        <button class="book-tour-btn" data-tour="safari">Book Tour</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About EcoTour</h2>
+                    <p>We are passionate about sustainable travel that benefits both travelers and the destinations they visit. Our eco-tours are designed to minimize environmental impact while maximizing positive contributions to local communities.</p>
+                    
+                    <div class="values">
+                        <div class="value-item">
+                            <span class="icon">🌱</span>
+                            <h3>Sustainability</h3>
+                            <p>Every tour is carbon-neutral and supports environmental conservation projects.</p>
+                        </div>
+                        <div class="value-item">
+                            <span class="icon">🤝</span>
+                            <h3>Community</h3>
+                            <p>We work with local communities to ensure tourism benefits everyone involved.</p>
+                        </div>
+                        <div class="value-item">
+                            <span class="icon">📚</span>
+                            <h3>Education</h3>
+                            <p>Learn about ecosystems, conservation, and sustainable living practices.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">🌍 Our Mission</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <span class="icon">📍</span>
+                        <p>123 Green Street, Eco City, EC 12345</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">📞</span>
+                        <p>+1 (555) 123-TOUR</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">✉️</span>
+                        <p>info@ecotour.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">🕐</span>
+                        <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <h3>Send us a Message</h3>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Modal -->
+    <div id="booking-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Book Your Eco Tour</h2>
+            <form id="booking-form">
+                <div class="form-group">
+                    <label for="tour-select">Select Tour:</label>
+                    <select id="tour-select" name="tour" required>
+                        <option value="">Choose a tour...</option>
+                        <option value="forest">Forest Hiking Adventure - $299</option>
+                        <option value="mountain">Mountain Eco Trek - $599</option>
+                        <option value="ocean">Ocean Conservation Tour - $449</option>
+                        <option value="safari">Wildlife Safari - $799</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="booking-name">Full Name:</label>
+                    <input type="text" id="booking-name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="booking-email">Email:</label>
+                    <input type="email" id="booking-email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="booking-phone">Phone:</label>
+                    <input type="tel" id="booking-phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="travel-date">Preferred Travel Date:</label>
+                    <input type="date" id="travel-date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="participants">Number of Participants:</label>
+                    <select id="participants" name="participants" required>
+                        <option value="1">1 Person</option>
+                        <option value="2">2 People</option>
+                        <option value="3">3 People</option>
+                        <option value="4">4 People</option>
+                        <option value="5">5+ People</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="special-requests">Special Requests:</label>
+                    <textarea id="special-requests" name="requests" rows="3"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Book Now</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🌿 EcoTour</h3>
+                    <p>Sustainable adventure travel for conscious explorers.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#tours">Tours</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Our Commitment</h4>
+                    <ul>
+                        <li>Carbon Neutral Tours</li>
+                        <li>Community Support</li>
+                        <li>Wildlife Conservation</li>
+                        <li>Sustainable Practices</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EcoTour. All rights reserved. | Proudly committed to sustainable tourism.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
