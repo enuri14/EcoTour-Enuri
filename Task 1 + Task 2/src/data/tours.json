@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "category": "hiking",
+    "name": "Snowdonia Adventure",
+    "description": "Explore the rugged beauty of Snowdonia National Park on foot. This guided hike will take you across mountain ridges, peaceful valleys, and crystal-clear lakes while learning about the region’s unique wildlife and history.",
+    "slots": 12,
+    "image": "/pics/1.jpg"
+  },
+  {
+    "id": 2,
+    "category": "hiking",
+    "name": "Lake District Peaks",
+    "description": "Climb the famous peaks of the Lake District with our experienced guides. You’ll enjoy breathtaking views from the summits, pass through charming villages, and experience one of the UK’s most loved hiking destinations.",
+    "slots": 15,
+    "image": "/pics/2.jpg"
+  },
+  {
+    "id": 3,
+    "category": "hiking",
+    "name": "Ben Nevis Trek",
+    "description": "Take on the highest mountain in the UK with expert guidance and support. The trek offers a challenging yet rewarding climb, with panoramic views of the Scottish Highlands awaiting you at the summit.",
+    "slots": 10,
+    "image": "/pics/3.jpg"
+  },
+  {
+    "id": 4,
+    "category": "hiking",
+    "name": "Yorkshire Dales Explorer",
+    "description": "Wander through the rolling hills and valleys of the Yorkshire Dales. This tour combines scenic hikes, limestone caves, and picturesque villages, giving you a taste of both nature and local culture.",
+    "slots": 18,
+    "image": "/pics/4.jpg"
+  },
+  {
+    "id": 5,
+    "category": "hiking",
+    "name": "Peak District Trails",
+    "description": "Discover limestone valleys, dramatic rock formations, and heather moorlands in the Peak District. Perfect for both beginners and seasoned hikers, this trip showcases the diversity of England’s first national park.",
+    "slots": 14,
+    "image": "/pics/5.jpeg"
+  },
+
+  {
+    "id": 6,
+    "category": "cycling",
+    "name": "Cotswolds Countryside Ride",
+    "description": "Cycle through the charming villages and rolling countryside of the Cotswolds. Along the way you’ll see traditional stone cottages, flower-filled meadows, and quiet rural lanes ideal for leisurely cycling.",
+    "slots": 20,
+    "image": "/pics/6.jpg"
+  },
+  {
+    "id": 7,
+    "category": "cycling",
+    "name": "Hadrian’s Wall Challenge",
+    "description": "Follow the historic route of Hadrian’s Wall on two wheels. This cycling adventure combines Roman history, rugged landscapes, and an exciting endurance ride across northern England.",
+    "slots": 12,
+    "image": "/pics/7.jpg"
+  },
+  {
+    "id": 8,
+    "category": "cycling",
+    "name": "Isle of Wight Coastal Loop",
+    "description": "Enjoy seaside views and fresh coastal air on this scenic island ride. The loop takes you past sandy beaches, chalk cliffs, and picturesque fishing towns, making it both relaxing and adventurous.",
+    "slots": 16,
+    "image": "/pics/8.jpg"
+  },
+  {
+    "id": 9,
+    "category": "cycling",
+    "name": "Scottish Highlands Ride",
+    "description": "Take on steep climbs and winding descents in the Scottish Highlands. This tour is designed for experienced cyclists seeking dramatic mountain landscapes, lochs, and unforgettable views.",
+    "slots": 10,
+    "image": "/pics/9.jpeg"
+  },
+  {
+    "id": 10,
+    "category": "cycling",
+    "name": "Cambridge to Ely Path",
+    "description": "Ride along peaceful countryside routes from the historic city of Cambridge to Ely. This gentle journey offers cathedral views, riverside paths, and a relaxed cycling experience suitable for all levels.",
+    "slots": 25,
+    "image": "/pics/9.jpg"
+  },
+
+  {
+    "id": 11,
+  "category": "nature",
+    "name": "Sherwood Forest Walk",
+    "description": "Stroll through the legendary Sherwood Forest, home of Robin Hood. On this nature walk you’ll encounter ancient oak trees, rich wildlife, and stories that bring English folklore to life.",
+    "slots": 20,
+    "image": "/pics/11.jpeg"
+  },
+  {
+    "id": 12,
+  "category": "nature",
+    "name": "Richmond Park Wildlife Tour",
+    "description": "Escape the city and enjoy a peaceful walk through Richmond Park in London. Spot wild deer roaming freely, explore woodland paths, and take in open meadows and lakes filled with birds.",
+    "slots": 30,
+    "image": "/pics/12.jpg"
+  },
+  {
+    "id": 13,
+  "category": "nature",
+    "name": "New Forest Discovery",
+    "description": "Walk through ancient woodland and spot the famous New Forest ponies. This relaxing nature walk introduces you to diverse habitats, wildflowers, and historic landscapes.",
+    "slots": 22,
+    "image": "/pics/13.jpg"
+  },
+  {
+    "id": 14,
+  "category": "nature",
+    "name": "Pembrokeshire Coastal Path",
+    "description": "A gentle coastal walk along the famous Pembrokeshire cliffs. Experience dramatic sea views, spot seabirds and seals, and enjoy some of the most breathtaking coastal scenery in Wales.",
+    "slots": 15,
+    "image": "/pics/14.jpg"
+  },
+  {
+    "id": 15,
+  "category": "nature",
+    "name": "Kew Gardens Botanical Tour",
+    "description": "Discover exotic plants and spectacular glasshouses on a guided tour of Kew Gardens. This nature walk combines education, beauty, and tranquility in one of the world’s most famous botanical gardens.",
+    "slots": 28,
+    "image": "/pics/15.jpg"
+  }
+]
