@@ -4,8 +4,9 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node simple-server.js",
+    "dev": "nodemon simple-server.js",
+    "dev-sql": "nodemon index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
