@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Theme variables */
+
+
+
+:root {
+  --bg: #ffffff;
+  --text: #222;
+  --accent: #2c7a7b;
+  --card: #ffffff;
+  --border: #e5e7eb;
+  --categories-bg: #e0f2e9;
+  --input-bg: #ffffff;
+  --input-text: #1f2937;
+  --input-placeholder: #94a3b8;
+  --input-border: #cbd5f5;
+  --input-border-focus: #2c7a7b;
+  --input-shadow-focus: rgba(44, 122, 123, 0.25);
+}
+
+:root[data-theme="dark"] {
+  --bg: #10181b;
+  --text: #e6f2ef;
+  --accent: #38b2ac;
+  --card: #182024;
+  --border: #334155;
+  --categories-bg: #182024;
+  --input-bg: #121b1f;
+  --input-text: #e6f2ef;
+  --input-placeholder: #8ba2ad;
+  --input-border: #334148;
+  --input-border-focus: #38b2ac;
+  --input-shadow-focus: rgba(56, 178, 172, 0.28);
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.bg-white {
+  background-color: var(--card) !important;
+}
+.bg-neutral-50 {
+  background-color: var(--bg) !important;
+}
+.text-slate-900, .text-slate-700, .text-slate-600 {
+  color: var(--text) !important;
+}
+.border-slate-300 {
+  border-color: var(--border) !important;
+}
+
+
+.admin-dashboard form {
+  backdrop-filter: saturate(140%);
+}
+
+.admin-dashboard form input,
+.admin-dashboard form textarea,
+.admin-dashboard form select {
+  background-color: var(--input-bg);
+  color: var(--input-text);
+  border: 1px solid var(--input-border);
+  transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.admin-dashboard form input:focus,
+.admin-dashboard form textarea:focus,
+.admin-dashboard form select:focus {
+  outline: none;
+  border-color: var(--input-border-focus);
+  box-shadow: 0 0 0 2px var(--input-shadow-focus);
+}
+
+.admin-dashboard form input::placeholder,
+.admin-dashboard form textarea::placeholder {
+  color: var(--input-placeholder);
+  opacity: 1;
+}
+
+.admin-dashboard form select {
+  color: var(--input-text);
+}
+
+.admin-dashboard form input[type="file"] {
+  padding: 0.5rem 0;
+  color: var(--input-placeholder);
+}
+
+.admin-dashboard form input[type="file"]::file-selector-button {
+  margin-right: 1rem;
+  padding: 0.5rem 1.25rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--accent);
+  color: #ffffff;
+  cursor: pointer;
+  transition: filter 0.2s ease;
+}
+
+.admin-dashboard form input[type="file"]::file-selector-button:hover,
+.admin-dashboard form input[type="file"]::file-selector-button:focus {
+  filter: brightness(0.9);
+}
